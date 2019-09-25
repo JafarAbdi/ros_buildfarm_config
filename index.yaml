@@ -37,7 +37,7 @@ distributions:
       default: melodic/source-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
-jenkins_url: http://localhost:8080
+jenkins_url: http://localhost:8080/
 notification_emails:
 - cafer.abdi@gmail.com
 prerequisites:
