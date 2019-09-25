@@ -46,8 +46,8 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://localhost/ros/ws_bloom/ubuntu/building
-target_repository: http://localhost/ros/ws_bloom/ubuntu/building
+  - http://localhost:8000/ros/ws_bloom/ubuntu/building
+target_repository: http://localhost:8000/ros/ws_bloom/ubuntu/building
 targets:
   ubuntu:
     bionic:
