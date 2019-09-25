@@ -55,7 +55,7 @@ repositories:
 target_repository: http://0.0.0.0:8000/ubuntu/ubuntu/building
 targets:
   ubuntu:
-    xenial:
+    bionic:
       armhf:
       arm64:
   debian:

@@ -50,12 +50,8 @@ repositories:
 target_repository: http://0.0.0.0:8000/ubuntu/ubuntu/building
 targets:
   ubuntu:
-    # wily:
-    #   amd64:
-    #   i386:
-    xenial:
+    bionic:
       amd64:
-      # i386:
   debian:
     jessie:
       amd64:

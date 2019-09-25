@@ -46,7 +46,7 @@ repositories:
     -----END PGP PUBLIC KEY BLOCK-----
 targets:
   ubuntu:
-    xenial:
+    bionic:
       amd64:
 test_commits:
   default: true
