@@ -11,10 +11,10 @@ notifications:
   - cafer.abdi@gmail.com
   maintainers: false
 package_blacklist:
-  - ardrone_autonomy
-  - darknet
-  - octovis
-  - ueye
+  # - ardrone_autonomy
+  # - darknet
+  # - octovis
+  # - ueye
 sync:
   package_count: 1
 repositories:
@@ -51,8 +51,8 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://localhost:8080/ubuntu/building
-target_repository: http://localhost:8080/ubuntu/building
+  - http://0.0.0.0:8000/ubuntu/ubuntu/building
+target_repository: http://0.0.0.0:8000/ubuntu/ubuntu/building
 targets:
   ubuntu:
     xenial:

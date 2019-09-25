@@ -11,7 +11,7 @@ notifications:
   maintainers: false
 repositories:
   urls:
-  - http://localhost:8080/ubuntu/testing
+  - http://0.0.0.0:8000/ubuntu/testing
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
