@@ -42,7 +42,7 @@ notification_emails:
 - cafer.abdi@gmail.com
 prerequisites:
   debian_repositories:
-  - http://localhost/ros/ws_bloom/ubuntu/building
+  - http://localhost/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -78,8 +78,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/JafarAbdi/rosdistro_test/master/index.yaml
 status_page_repositories:
   default:
-  - http://localhost/ros/ws_bloom/ubuntu/building
-  - http://localhost/ros/ws_bloom/ubuntu/testing
-  - http://localhost/ros/ws_bloom/ubuntu/main
+  - http://localhost/ubuntu/building
+  - http://localhost/ubuntu/testing
+  - http://localhost/ubuntu/main
 type: buildfarm
 version: 1
